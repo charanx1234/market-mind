@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #0c0e14;
+    --foreground: #d1d4dc;
+    --card: #12151f;
+    --card-foreground: #d1d4dc;
+    --popover: #151926;
+    --popover-foreground: #d1d4dc;
+    --primary: #3b82f6;
+    --primary-foreground: #ffffff;
+    --secondary: #1a1e2b;
+    --secondary-foreground: #d1d4dc;
+    --muted: #1e2230;
+    --muted-foreground: #787b86;
+    --accent: #1e2230;
+    --accent-foreground: #d1d4dc;
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    --border: #202433;
+    --input: #171b26;
+    --ring: #3b82f6;
+    --radius: 0.5rem;
+  }
+
+  body {
+    background-color: #0c0e14;
+    color: #d1d4dc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Trebuchet MS', Roboto, Ubuntu, sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Custom terminal scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #252b3b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+}

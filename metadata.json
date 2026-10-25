@@ -1,0 +1,6 @@
+{
+  "name": "MarketMind AI - Personal Stock Market Research & Simulation Platform",
+  "description": "Educational stock market research, deterministic scenario forecasting, risk analytics, and simulated paper-trading platform for Indian equities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
